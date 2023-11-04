@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>❤️❤️❤️❤️❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        body {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        @keyframes pulse {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.1);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .pulsating-text {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse-image {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .pulsating-image {
+            animation: pulse-image 2s infinite;
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+
+<body bgcolor="pink">
+    <center>
+        🤍🤎
+        <h1> <p class="pulsating-text">❤️ HELOIZA ❤️</h1></center> </p> 
+        <br>
+        <br>
+        <br>
+
+        <center>
+           Por alguma razão, coincidência do destino, você resolveu me seguir no Instagram (entre todos os seguidores da Etec, você me escolheu). Só Deus sabe por que, rsrs, mas não importa. O importante é que eu sou atacante (embora você discorde) e te convidei para sair. Eu já estava até vendo o "não", mas por incrível que pareça, você aceitou! O primeiro encontro não foi dos melhores, rsrs, mas o segundo foi muito bom, de verdade. Quanto ao terceiro, ainda não aconteceu, mas eu sei que deve ter sido muito legal. Inclusive, estou falando com você agora (03/11/2023) sobre o domingo que a gente vai se encontrar.
+
+Enfim, eu já te perguntei umas 10 vezes o que você viu em mim, e você diz: Bonito, engraçado, educado (e pardo). Eu só não acredito na primeira parte, mas tudo bem. Sempre quis conhecer alguém que me entendesse e fosse muito legal, até finalmente te conhecer.
+
+Suas qualidades são tantas que nem sei por onde começar. Primeiro, tem o seu humor, que é preto que africano no sol. Seu jeito carinhoso, seu beijo (que deve ser muito bom, porque eu ainda não te beijei, mas eu sei que é bom) e você é linda e me entende. Sério, eu acho você muito gata. Você é perfeita mina!.
+
+Mas depois de todo esse papo meloso, rsrs, só queria te dizer que você é demais! Depois que te conheci, meus dias são muito mais felizes. Sempre que estou triste ou bravo com alguma coisa, seja na escola, no trabalho ou no curso, você sempre está lá me mandando mensagem, ou vice-versa, e a gente ri muito juntos.
+
+É como o Mc Hariel disse naquela musica: <br>
+<br>
+
+<b> "oh meu cúpido querido capricha no tiro e acerta uma maluca que quer ser doida comigo"</b>
+
+<br>
+<br>
+E quer saber qual a melhor parte do meu dia? 
+é essa aqui: 
+<br>
+<br>
+<img src="img.png" width="300" height="60">
+<br>
+
+<br>
+<br>
+Então, espero que a gente fique junto.
+
+<br>
+<br>
+<br>
+
+
+            <img class="pulsating-image" id="pulsatingImage" src="01.png" width="300" height="400" alt="Minha Imagem">
+            <br>
+            <br>
+            <audio id="audio" controls loop>
+                <source src="BABY CÊ É GATA.mp3" type="audio/mpeg">
+            </audio>
+<br>
+<br>
+<br>
+ (Lembrei que você falou que gosta dessa musica do Kyan então aproveitei pra colocar ela aqui)<br>
+    <br>
+    <br>
+    🤍🤎
+        </center>
+    </center>
+
+    <script>
+        const audio = document.getElementById('audio');
+        const image = document.getElementById('pulsatingImage');
+        
+        audio.addEventListener('play', function() {
+            image.style.animationPlayState = 'running';
+        });
+        
+        audio.addEventListener('pause', function() {
+            image.style.animationPlayState = 'paused';
+        });
+    </script>
+</body>
+</html>
